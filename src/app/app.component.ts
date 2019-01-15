@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  toState;
+
+  changeState(state){
+    this.toState = state;
+  }
 }
